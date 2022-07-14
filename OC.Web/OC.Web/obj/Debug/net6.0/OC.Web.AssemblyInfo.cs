@@ -94,6 +94,7 @@ using System.Reflection;
 [assembly: OrchardCore.Modules.Manifest.ModuleNameAttribute("OrchardCore.Alias")]
 [assembly: OrchardCore.Modules.Manifest.ModuleNameAttribute("OrchardCore.AdminMenu")]
 [assembly: OrchardCore.Modules.Manifest.ModuleNameAttribute("OrchardCore.AdminDashboard")]
+[assembly: OrchardCore.Modules.Manifest.ModuleNameAttribute("Movies")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("OC.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

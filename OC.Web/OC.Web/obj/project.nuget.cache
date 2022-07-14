@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rpYSp57J/2dRphH1ottL7+G1AnRrqrTzbKIpXIpavG4WiPH4fTJiwaemYNbpY3GH21YT+XE5UBGyMJNR+W+HzA==",
+  "dgSpecHash": "FV6fNNDfjcygU3zDngUTZ/H6+enT2e7Iakbl8WVMGKq64mDH+sF2eHF6bKyIG5XUyRgNqlb3S/WKYGSSmtDnhQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ttrushel\\Desktop\\OC.Web\\OC.Web\\OC.Web.csproj",
+  "projectFilePath": "C:\\Users\\ttrushel\\Desktop\\MovieTheaterTech\\OC.Web\\OC.Web\\OC.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ttrushel\\.nuget\\packages\\anglesharp\\0.16.1\\anglesharp.0.16.1.nupkg.sha512",
     "C:\\Users\\ttrushel\\.nuget\\packages\\anglesharp.css\\0.16.4\\anglesharp.css.0.16.4.nupkg.sha512",

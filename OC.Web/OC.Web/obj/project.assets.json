@@ -7275,6 +7275,25 @@
         "runtime": {
           "lib/netstandard2.1/ZString.dll": {}
         }
+      },
+      "Movies/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "OrchardCore.ContentManagement": "1.4.0",
+          "OrchardCore.ContentTypes.Abstractions": "1.4.0",
+          "OrchardCore.DisplayManagement": "1.4.0",
+          "OrchardCore.Module.Targets": "1.4.0"
+        },
+        "compile": {
+          "bin/placeholder/Movies.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Movies.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -22180,10 +22199,16 @@
         "zstring.2.4.4.nupkg.sha512",
         "zstring.nuspec"
       ]
+    },
+    "Movies/1.0.0": {
+      "type": "project",
+      "path": "../Movies/Movies.csproj",
+      "msbuildProject": "../Movies/Movies.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Movies >= 1.0.0",
       "OrchardCore.Application.Cms.Targets >= 1.4.0",
       "OrchardCore.Logging.NLog >= 1.4.0"
     ]
@@ -22196,11 +22221,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ttrushel\\Desktop\\OC.Web\\OC.Web\\OC.Web.csproj",
+      "projectUniqueName": "C:\\Users\\ttrushel\\Desktop\\MovieTheaterTech\\OC.Web\\OC.Web\\OC.Web.csproj",
       "projectName": "OC.Web",
-      "projectPath": "C:\\Users\\ttrushel\\Desktop\\OC.Web\\OC.Web\\OC.Web.csproj",
+      "projectPath": "C:\\Users\\ttrushel\\Desktop\\MovieTheaterTech\\OC.Web\\OC.Web\\OC.Web.csproj",
       "packagesPath": "C:\\Users\\ttrushel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ttrushel\\Desktop\\OC.Web\\OC.Web\\obj\\",
+      "outputPath": "C:\\Users\\ttrushel\\Desktop\\MovieTheaterTech\\OC.Web\\OC.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -22222,7 +22247,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ttrushel\\Desktop\\MovieTheaterTech\\OC.Web\\Movies\\Movies.csproj": {
+              "projectPath": "C:\\Users\\ttrushel\\Desktop\\MovieTheaterTech\\OC.Web\\Movies\\Movies.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

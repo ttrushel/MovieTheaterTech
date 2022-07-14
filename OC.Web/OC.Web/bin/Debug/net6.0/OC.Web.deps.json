@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "OC.Web/1.0.0": {
         "dependencies": {
+          "Movies": "1.0.0",
           "OrchardCore.Application.Cms.Targets": "1.4.0",
           "OrchardCore.Logging.NLog": "1.4.0"
         },
@@ -5226,6 +5227,17 @@
             "fileVersion": "2.4.4.0"
           }
         }
+      },
+      "Movies/1.0.0": {
+        "dependencies": {
+          "OrchardCore.ContentManagement": "1.4.0",
+          "OrchardCore.ContentTypes.Abstractions": "1.4.0",
+          "OrchardCore.DisplayManagement": "1.4.0",
+          "OrchardCore.Module.Targets": "1.4.0"
+        },
+        "runtime": {
+          "Movies.dll": {}
+        }
       }
     }
   },
@@ -8244,6 +8256,11 @@
       "sha512": "sha512-3ETG/AE0wR+Uo1CPwzSIYLMvDak5i8stKR/DdxOTyj8EKD9bKPTbftv/YhMbbjfR04gA2xK0PX3mPj7BRGDlew==",
       "path": "zstring/2.4.4",
       "hashPath": "zstring.2.4.4.nupkg.sha512"
+    },
+    "Movies/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
