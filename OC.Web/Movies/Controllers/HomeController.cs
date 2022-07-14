@@ -1,9 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Movies.ViewModels;
 
 namespace Movies.Controllers
 {
@@ -12,6 +8,13 @@ namespace Movies.Controllers
         public ActionResult Index()
         {
             return View();
+        }
+
+        [HttpPost]
+        public ActionResult Index(MoviePartViewModel movie)
+        {
+            var title = movie.Title;
+            return View(title);
         }
     }
 }

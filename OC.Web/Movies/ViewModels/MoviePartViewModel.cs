@@ -2,6 +2,6 @@
 {
     public class MoviePartViewModel
     {
-        public string Titles { get; set; }
+        public string Title { get; set; }
     }
 }

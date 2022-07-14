@@ -14,6 +14,8 @@ using System.Reflection;
 [assembly: OrchardCore.Modules.Manifest.ModuleMarkerAttribute("Movies", "Module")]
 [assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\Movies\\Views\\Home\\Index.cshtml|C:\\Users\\ttrushel\\Desktop\\MovieTheaterTech\\O" +
     "C.Web\\Movies\\Views\\Home\\Index.cshtml")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\Movies\\Views\\Home\\Rambo.cshtml|C:\\Users\\ttrushel\\Desktop\\MovieTheaterTech\\O" +
+    "C.Web\\Movies\\Views\\Home\\Rambo.cshtml")]
 [assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\Movies\\Views\\MoviePart.Edit.cshtml|C:\\Users\\ttrushel\\Desktop\\MovieTheaterTe" +
     "ch\\OC.Web\\Movies\\Views\\MoviePart.Edit.cshtml")]
 [assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\Movies\\Views\\MoviePartSettings.Edit.cshtml|C:\\Users\\ttrushel\\Desktop\\MovieT" +
