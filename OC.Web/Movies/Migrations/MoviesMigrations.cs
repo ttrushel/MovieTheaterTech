@@ -1,6 +1,8 @@
+using Movies.Indexes;
 using OrchardCore.ContentManagement.Metadata;
 using OrchardCore.ContentManagement.Metadata.Settings;
 using OrchardCore.Data.Migration;
+using YesSql.Sql;
 
 namespace Movies.Migrations
 {
@@ -21,5 +23,13 @@ namespace Movies.Migrations
 
             return 1;
         }
+
+        public int UpdateFrom1()
+        {
+            SchemaBuilder.CreateMapIndexTable<MovieIndex>(table => table
+                .Column<string>(nameof(MovieIndex.Title), column => column.Unlimited()));
+            return 2;
+        }
     }
 }
+// NEXT STATION: Controllers/DatabaseStorageController and go to the CreateBooksPost action where we previously left.
